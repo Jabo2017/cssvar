@@ -1,0 +1,26 @@
+/*全局变量*/
+
+:root {
+    --bgColor: #f00;
+}
+
+@media screen and (max-width: 1099px) {
+     :root {
+        --bgColor: #ddd;
+    }
+}
+
+body {
+    background-color: var(--bgColor);
+}
+
+
+/*局部变量*/
+
+.modelInner {
+    --fontColor: yellow;
+}
+
+p {
+    color: var(--fontColor);
+}
